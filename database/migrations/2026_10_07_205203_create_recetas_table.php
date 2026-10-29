@@ -23,7 +23,7 @@ return new class extends Migration
             ->on('users')->onDelete('cascade');
 
             $table->string('titulo');
-            $table->string('descripciones');
+            $table->string('descripcion');
             $table->string('ingredientes');
             $table->string('instrucciones');
             $table->string('imagen')->nullable();   
